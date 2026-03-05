@@ -165,7 +165,7 @@ function navegarAFacultad(facultad) {
     sistemas: 'pages/sistemas.html',
     industrial: 'pages/industrial.html',
     mecanica: 'pages/mecanica.html',
-    civil: 'pages/civil.html',
+    civil: '../JuegoIngenieriaCivil/JeopardyGame/jeopardygame.html',
     electrica: 'pages/electrica.html'
   };
 
