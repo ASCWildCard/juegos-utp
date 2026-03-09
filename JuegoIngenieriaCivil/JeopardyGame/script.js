@@ -106,14 +106,18 @@ function createEditor() {
 
     const saveBtn = document.createElement("button");
     saveBtn.textContent = "Guardar Set";
+    saveBtn.className = "editor-btn save-btn";
     saveBtn.onclick = saveQuestionSet;
     editor.appendChild(saveBtn);
+
 
     // boton iniciar juego
 
     const startBtn = document.createElement("button");
     startBtn.textContent = "Iniciar Juego";
+    startBtn.className = "editor-btn start-btn";
     startBtn.addEventListener("click", startGame);
+
 
     editor.appendChild(document.createElement("br"));
     editor.appendChild(document.createElement("br"));
